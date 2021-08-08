@@ -32,6 +32,7 @@ function Home() {
 
     return (
         <StyledDiv>
+            <label >Enter size: </label>
             <StyledInput>
                 <Input value={row} type="number" placeholder="row" onChange={(e) => setrow(e.target.value)}/>
                     X
